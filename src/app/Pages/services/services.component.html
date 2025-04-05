@@ -1,0 +1,28 @@
+<div class="services-wrapper py-5">
+    <div class="container">
+      <h2 class="text-center mb-3 heading-title">💛 How Can I Support You?</h2>
+      <p class="text-center subheading-text mb-5">I’m here to listen, guide, and be present — choose the support that feels right for you.</p>
+  
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4" *ngFor="let service of services">
+          <div class="card warm-card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+                <div class="service-icon mb-3">
+                  <i class="bi bi-chat-heart-fill"></i>
+                </div>
+                <h5 class="card-title">{{ service.title }}</h5>
+                <p class="card-text">{{ service.description }}</p>
+              </div>
+              <div class="text-center mt-3">
+                <a [href]="generateWhatsAppLink(service.title)" target="_blank" class="btn btn-contact">
+                  💬 Talk to Me About This
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

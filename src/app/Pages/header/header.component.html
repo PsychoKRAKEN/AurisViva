@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-lg custom-navbar">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" routerLink="/">
+      <img src="/assets/avfinallogo.png" width="150" height="50" class="d-inline-block align-top" alt="logo">
+    </a>
+
+    <!-- Navigation Links -->
+    <div class="collapse navbar-collapse justify-content-end">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a routerLink="/Home" routerLinkActive="active" class="nav-link" [routerLinkActiveOptions]="{ exact: true }">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/Services" routerLinkActive="active" class="nav-link">Services</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/FAQ" routerLinkActive="active" class="nav-link">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/About" routerLinkActive="active" class="nav-link">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/Shop" routerLinkActive="active" class="nav-link">Shop</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,67 @@
+.services-wrapper {
+    background: linear-gradient(to right, #fff7f0, #ffe4e1);
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .heading-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #3e2723;
+  }
+  
+  .subheading-text {
+    font-size: 1.1rem;
+    color: #6d4c41;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .warm-card {
+    background-color: #ffffffd9;
+    border: none;
+    border-radius: 18px;
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .warm-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-icon {
+    font-size: 2rem;
+    color: #d76d77;
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #4e342e;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 0.95rem;
+    text-align: center;
+    color: #6d4c41;
+  }
+  
+  .btn-contact {
+    background-color: #ff8a65;
+    color: #fff;
+    border: none;
+    font-weight: 500;
+    border-radius: 12px;
+    padding: 10px 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-contact:hover {
+    background-color: #ff7043;
+    color: white;
+  }
+  

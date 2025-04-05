@@ -1,0 +1,107 @@
+/* Hero Section */
+.hero-section {
+    position: relative;
+    background: white;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+
+  .pricing-card {
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .pricing-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .pricing-header {
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    color: white;
+    padding: 50px 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .pricing-header h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .pricing-header p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    opacity: 0.9;
+  }
+  
+  .text-highlight {
+    font-weight: bold;
+    color: #ffeb3b;
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+
+  .hero-section {
+    background-color: #fff8e1;
+    border-bottom: 1px solid #f5deb3;
+  }
+  
+  .features-section .card {
+    border-radius: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .features-section .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  }
+  
+  .text-highlight {
+    color: #d97706;
+  }
+  
+  .pricing-card {
+    background-color: #fffbe6;
+    border-radius: 1rem;
+  }
+  
+  .carousel img {
+    border-radius: 1rem;
+  }
+  
+  
